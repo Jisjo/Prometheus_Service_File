@@ -1,6 +1,6 @@
 # Prometheus_Service_File
 
-
+> The service file tells systemd to run Prometheus as the root user, with the installed located /opt/prometheus/. Please change the path as per the installed location and user specified.
 ```
 # cat /etc/systemd/system/prometheus.service
 [Unit]
