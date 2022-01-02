@@ -25,7 +25,7 @@ WantedBy=multi-user.target
 ```
 # Result
 
-```
+```sh
 # systemctl daemon-reload
 # systemctl status prometheus
 ● prometheus.service - Prometheus
